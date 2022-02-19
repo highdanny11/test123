@@ -1,6 +1,17 @@
 <template>
   <div id="nav">
     {{name}}
+    <ul>
+      <li>1
+        <p></p>
+      </li>
+      <li>2
+        <p></p>
+      </li>
+      <li>3
+        <p></p>
+      </li>
+    </ul>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
