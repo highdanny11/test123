@@ -1,8 +1,6 @@
 <template>
   <div id="nav">
     {{name}}
-    <p class="text-center align-items-center">測試增基文字</p>
-    <p class="text-center d-flex align-items-center justify-content-center">123123</p>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
